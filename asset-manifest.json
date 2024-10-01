@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-email-app/static/css/main.b3683502.css",
+    "main.js": "/my-email-app/static/js/main.eb69f035.js",
+    "static/js/453.1b6d1aee.chunk.js": "/my-email-app/static/js/453.1b6d1aee.chunk.js",
+    "index.html": "/my-email-app/index.html",
+    "main.b3683502.css.map": "/my-email-app/static/css/main.b3683502.css.map",
+    "main.eb69f035.js.map": "/my-email-app/static/js/main.eb69f035.js.map",
+    "453.1b6d1aee.chunk.js.map": "/my-email-app/static/js/453.1b6d1aee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3683502.css",
+    "static/js/main.eb69f035.js"
+  ]
+}
