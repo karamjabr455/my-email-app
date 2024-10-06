@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import ScheduledEmailSender from './ScheduledEmailSender'; // تأكد أن المسار صحيح
+
 import './App.css'; 
 
 const App = () => {
@@ -18,6 +20,7 @@ const App = () => {
         };
 
         emailjs.send('service_kiakddj', 'template_xoacuaw', templateParams, 'tyRWgViIpSDmDaaJ8')
+
             .then((response) => {
                 setModalContent('تم إرسال البريد الإلكتروني بنجاح!');
                 setIsSuccess(true);
@@ -89,8 +92,16 @@ const App = () => {
                     </div>
                 </>
             )}
+
+<div className=" bg-gray-100 flex items-center justify-center">
+      <ScheduledEmailSender />
+    </div>
+
         </div>
+        
     );
 };
 
 export default App;
+/**        emailjs.send('service_kiakddj', 'template_xoacuaw', templateParams, 'tyRWgViIpSDmDaaJ8')
+ */
